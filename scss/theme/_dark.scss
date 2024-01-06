@@ -8,7 +8,7 @@ html.dark {
     --top-act-group-shadow: rgba(0, 0, 0, 0.2);
     --top-act-group-separate: #ededf6;
     --body-bg-color: #292e39;
-    @include abstracts.breakpoint(lg) {
+    @include abstracts.screen(lg) {
         --header-bg-color: #171c28;
         --header-shadow-color: rgba(0, 0, 0, 0.20);;
     }
@@ -21,4 +21,16 @@ html.dark {
     --menu-column-icon-color: brightness(0) saturate(100%) invert(94%)
     sepia(10%) saturate(425%) hue-rotate(219deg) brightness(106%)
     contrast(97%);
+
+
+    
+    // Sidebar
+    --sidebar-bg: #292E39;
+    --sidebar-shadow: rgba(23, 28, 40, 0.4);
+
+ // Cate-item
+        --cate-item-bg: #171C28;
+        --cate-item-thumb-bg: #292E39;
+        --cate-item-title-color: #fff;
+
 }
