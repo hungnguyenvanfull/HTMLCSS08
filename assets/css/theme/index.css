@@ -15,6 +15,10 @@ html {
   --cate-item-bg: #eee;
   --cate-item-thumb-bg: #fff;
   --cate-item-title-color: #000;
+  --filter-btn-color: #6c6c72;
+  --filter-btn-bg: #fff;
+  --product-card-bg: #fff;
+  --product-card-shadow: rgba(237, 237, 246, 0.2);
 }
 @media (max-width: 991.98px) {
   html {
@@ -48,6 +52,10 @@ html.dark {
   --cate-item-bg: #171C28;
   --cate-item-thumb-bg: #292E39;
   --cate-item-title-color: #fff;
+  --filter-btn-color: #FFFFFF;
+  --filter-btn-bg: #171C28;
+  --product-card-bg: #171C28;
+  --product-card-shadow: rgba(0, 0, 0, 0.20);
 }
 @media (max-width: 991.98px) {
   html.dark {
