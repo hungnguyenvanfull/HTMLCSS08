@@ -19,6 +19,10 @@ html {
   --filter-btn-bg: #fff;
   --product-card-bg: #fff;
   --product-card-shadow: rgba(237, 237, 246, 0.2);
+  --filter-form-bg: #fff;
+  --filter-form-shadow: rgba(200, 200, 200, 0.4);
+  --filter-form-tag-bg: #f8f8fb;
+  --filter-form-footer-bg: #fff ;
 }
 @media (max-width: 991.98px) {
   html {
@@ -56,6 +60,12 @@ html.dark {
   --filter-btn-bg: #171C28;
   --product-card-bg: #171C28;
   --product-card-shadow: rgba(0, 0, 0, 0.20);
+  --filter-form-bg: #2f3441;
+  --filter-form-shadow: rgba(0, 0, 0, 0.40);
+  --filter-form-tag-bg: #171C28;
+  --filter-form-arrow: brightness(0) saturate(100%) invert(17%) sepia(27%) saturate(487%) hue-rotate(185deg)
+  brightness(89%) contrast(88%);
+  --filter-form-footer-bg: #2f3441;
 }
 @media (max-width: 991.98px) {
   html.dark {
