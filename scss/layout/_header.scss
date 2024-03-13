@@ -167,6 +167,12 @@
 
     @include abstracts.screen(md) {
         margin-left: 0;
+
+        &__sign-up {
+            font-size: 1.5rem !important;
+            height: 38px !important;
+            padding: 0 8px;
+        }
     }
     &__group {
         @extend %flexItemCenter;

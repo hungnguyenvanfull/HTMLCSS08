@@ -25,6 +25,10 @@ html {
   --filter-form-tag-bg: #f8f8fb;
   --filter-form-footer-bg: #fff;
   --footer-text-color: #84838b;
+  --auth-intro-bg-color: #fafafd;
+  --auth-content-bg-color: #fff;
+  --auth-intro-text-color: #1a162e;
+  --auth-heading-color: #1a162e;
 }
 @media (max-width: 991.98px) {
   html {
@@ -68,6 +72,10 @@ html.dark {
   --filter-form-arrow: brightness(0) saturate(100%) invert(17%) sepia(27%) saturate(487%) hue-rotate(185deg)
   brightness(89%) contrast(88%);
   --filter-form-footer-bg: #2f3441;
+  --auth-intro-bg-color: #171C28;
+  --auth-content-bg-color: #292E39;
+  --auth-intro-text-color: #B9BABE;
+  --auth-heading-color: #B9BABE;
 }
 @media (max-width: 991.98px) {
   html.dark {
